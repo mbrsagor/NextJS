@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function layout({children}) {
+export default function layout({children, title}) {
     return (
         <div>
             <Head>
