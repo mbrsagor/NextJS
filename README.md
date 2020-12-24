@@ -24,6 +24,7 @@ then change configuration package.json file
 ```base
 yarn dev
 ```
+[!http://localhost:3000/] http://localhost:3000
 
 ### Download the project and run locally in your system.
 ```
@@ -31,4 +32,11 @@ git clone https://github.com/mbrsagor/NextJS/
 cd blog-site
 npm install
 yarn dev
+```
+
+###### How to change the application por
+```javascript
+"scripts": {
+    "dev" : "next -p 5000"
+}
 ```
