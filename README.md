@@ -4,6 +4,7 @@ NextJS Simple project blog app
 ### Install `next.js` in your system.
 The follow instractions only for the Mac and Linux platforms. If you want to install the `next.JS` project in your windows system you may get little problem. In fact, most of the commands will not work as expected.
 
+# Installation
 - 1st node.js
 - 2nd NPM
 
