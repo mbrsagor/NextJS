@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function header() {
   return (
     <div>
@@ -14,24 +16,24 @@ export default function header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand" href="#">
-           Sagor Blog
-          </a>
+          <Link href="/">
+            <a className="navbar-brand">Sagor Blog</a>
+          </Link>
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home <span className="sr-only">(current)</span>
-              </a>
+              <Link href="/about">
+                <a className="nav-link">About US</a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link
+                About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#">
-                Disabled
-              </a>
+              <Link href="/">
+                <a className="nav-link">Contact US</a>
+              </Link>
             </li>
           </ul>
         </div>
